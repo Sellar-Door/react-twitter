@@ -1,0 +1,53 @@
+{
+    "tweets": [
+        {
+            "ProfilePic": "https://media.licdn.com/dms/image/C4D03AQEBclsPZsvy6Q/profile-displayphoto-shrink_800_800/0?e=1567036800&v=beta&t=4bv71wammrqEL5Wl6Y8_NxEXoQOwo9vyW_VZ7DiLs1E",
+            "DisplayName": "Dylan Jones",
+            "Verified": "True",
+            "UserName": "DylanJones",
+            "TimeStamp": "20m",
+            "Text":  "This is my first tweet",
+            "Image": "",
+            "Replies": 12,
+            "Retweets": 6,
+            "Likes": 10
+        },
+        {
+            "ProfilePic": "https://media.licdn.com/dms/image/C4D03AQHDq0xgxLL5JQ/profile-displayphoto-shrink_800_800/0?e=1567036800&v=beta&t=YtrYuteFszLlZDU-sjGFjNL43VsQME4rSVZ5VUyFhto",
+            "DisplayName": "Gary Cameron",
+            "Verified": "True",
+            "UserName": "GaryCameron",
+            "TimeStamp": "25m",
+            "Text":  "This is my first tweet",
+            "Image": "",
+            "Replies": 12,
+            "Retweets": 6,
+            "Likes": 10
+        },
+        {
+            "ProfilePic": "https://media.licdn.com/dms/image/C5603AQGrpxCpSWN6zw/profile-displayphoto-shrink_200_200/0?e=1567036800&v=beta&t=xjbGMH9tCiOxgm2WuJ4YliuIfALroxGv28JvywC6VOw",
+            "DisplayName": "Misha Cardenas",
+            "Verified": "True",
+            "UserName": "MishaCardenas",
+            "TimeStamp": "30m",
+            "Text":  "This is my first tweet",
+            "Image": "",
+            "Replies": 12,
+            "Retweets": 6,
+            "Likes": 10
+        },
+        {
+            "ProfilePic": "https://media.licdn.com/dms/image/C5603AQGrpxCpSWN6zw/profile-displayphoto-shrink_200_200/0?e=1567036800&v=beta&t=xjbGMH9tCiOxgm2WuJ4YliuIfALroxGv28JvywC6VOw",
+            "DisplayName": "Misha Cardenas",
+            "Verified": "True",
+            "UserName": "MishaCardenas",
+            "TimeStamp": "30m",
+            "Text":  "This is my first tweet",
+            "Image": "",
+            "Replies": 12,
+            "Retweets": 6,
+            "Likes": 10
+        }
+
+    ]
+}

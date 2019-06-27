@@ -1,0 +1,35 @@
+.imagesround {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+  }
+  
+  .engagementImages {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .card {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .userData {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+  }
+  
+  .tweet {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+  }
+  
+  .engagement {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+  }
