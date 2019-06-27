@@ -135,7 +135,7 @@ const Image= (props) => {
 
 const  Replies= (props) => {
   return (
-    <div>
+    <div className="replies">
       <span>{props.data.Replies } </span>
     </div>
   )
@@ -143,7 +143,7 @@ const  Replies= (props) => {
 
 const Retweets= (props) => {
   return (
-    <div>
+    <div className="retweets">
       <span>{props.data.Retweets } </span>
     </div>
   )
@@ -151,7 +151,7 @@ const Retweets= (props) => {
 
 const Likes= (props) => {
   return (
-    <div>
+    <div className="likes">
       <span>{props.data.Likes } </span>
     </div>
   )

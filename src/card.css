@@ -30,24 +30,25 @@
   .userData {
     display: flex;
     flex-direction: row;
-    margin-bottom: 12px;
+    margin-bottom: -1.8em;
   }
   
   .tweet {
     display: flex;
     flex-direction: row;
-    margin-bottom: 12px;
+    margin-bottom: 1em;
+    margin-left: 3.8em;
   }
   
   .engagement {
     display: flex;
     flex-direction: row;
-    margin-bottom: 12px;
+    margin-left: 3.8em;
   }
 
   .displayName {
     font-weight: bold;
-    margin-left: 1vh;
+    margin-left: 0.8em;
   }
 
   .at {
@@ -70,6 +71,14 @@
     font-weight: lighter;
   }
 
-  .tweetText {
-    /* margin-left: 15vw; */
-  }
+  .replies {
+    margin-right: 2em;
+}
+
+.retweets {
+  margin-right: 2em;
+}
+
+.likes {
+  margin-right: 2em;
+}
