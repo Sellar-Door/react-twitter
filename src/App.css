@@ -5,3 +5,11 @@ body {
   align-items: center;
   background-color: #E5ECF0;
 }
+
+.column {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vh;
+}
