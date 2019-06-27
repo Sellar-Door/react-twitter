@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Navibar } from './Nav'
 
 import './App.css';
 import './card.css'
@@ -9,13 +10,15 @@ class App extends Component {
     render () {
         return (
             <div>
-             <Column />
+             <Navibar data={data}/>
+             <Column className="column" />
+
             </div>
         )
     }
 }
 
-const Column= () => {
+const Column = (props) => {
     return (
         <div>
         { data.tweets.map(card => <Card className="card" data={card} />) }
@@ -59,7 +62,7 @@ const Tweet = (props) => {
 
 const Engagement = (props) => {
   return (
-      <div className="engagement">
+      <div className="engagement"> 
 
 
             <i class="far fa-comment"></i>
@@ -74,7 +77,7 @@ const Engagement = (props) => {
 }
 
 
-const ProfilePic = (props) => {
+export const ProfilePic = (props) => {
   return (
     <div className="images">
       <img className="imagesround" src={props.data.ProfilePic} />
