@@ -6,7 +6,7 @@ import { ProfilePic } from './App';
 
 export const Navibar = (props) => {
     return ( 
-        <div className="Nav-bar"> 
+        <div className="Nav-bar sticky"> 
             <div className="Nav-section-left">
                 <i class="fas fa-home"></i>
                 <NavItem content="Home"  />
@@ -18,12 +18,13 @@ export const Navibar = (props) => {
                 <NavItem content="Message" />
             </div>
 
-            
+
 
             <div className="Nav-section-right">
                 <NavItem content="Birdy" />
                 <NavItem content="Search" />
                 <ProfilePic data={props.data.tweets} />
+                <NavItem content="Tweet" />
             </div>
         </div>
     )
