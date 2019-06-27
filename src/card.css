@@ -17,6 +17,7 @@
     background-color: white;
     padding: 1.5vh 0vh 0.5vh 1.5vh;
     border-bottom: 0.05vh solid gray;
+    border-top: 0.05vh solid gray;
   }
 
   @media only screen and (max-width: 600px) {
@@ -41,7 +42,7 @@
   .engagement {
     display: flex;
     flex-direction: row;
-    margin-bottom: 25px;
+    margin-bottom: 12px;
   }
 
   .displayName {
@@ -70,5 +71,5 @@
   }
 
   .tweetText {
-    margin-left: 15vw;
+    /* margin-left: 15vw; */
   }

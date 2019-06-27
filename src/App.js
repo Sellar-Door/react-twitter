@@ -20,7 +20,7 @@ class App extends Component {
 
 const Column = (props) => {
     return (
-        <div>
+        <div className="column">
         { data.tweets.map(card => <Card data={card} />) }
       </div>
     )
