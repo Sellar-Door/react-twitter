@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "homepage": "https://Sellar-Door.github.io/twitter",
+    "homepage": "https://Sellar-Door.github.io/react-twitter",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
