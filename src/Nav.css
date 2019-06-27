@@ -1,6 +1,6 @@
 .Nav-bar {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     background: #fff;
     height: 46px;
     width: 100vw;
