@@ -63,9 +63,7 @@ const Tweet = (props) => {
 const Engagement = (props) => {
   return (
       <div className="engagement"> 
-
-
-            <i class="far fa-comment"></i>
+          <i class="far fa-comment"></i>
           <Replies data={props.data} />
           <i class="fas fa-retweet"></i>
           <Retweets data={props.data} />

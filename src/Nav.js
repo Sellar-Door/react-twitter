@@ -10,21 +10,38 @@ export const Navibar = (props) => {
             <div className="Nav-bar-width">
 
             <div className="Nav-section-left">
-                <i class="fas fa-home"></i>
+                <i class="fas fa-home navIcon"></i>
                 <NavItem content="Home"/>
-                <i class="fas fa-bolt"></i>
+                <i class="fas fa-bolt navIcon"></i>
                 <NavItem content="Moments" />
-                <i class="far fa-bell"></i>
+                <i class="far fa-bell navIcon"></i>
                 <NavItem content="Notifications" />
-                <i class="far fa-envelope"></i>
-                <NavItem content="Message" />
+                <i class="far fa-envelope navIcon"></i>
+                <NavItem content="Messages" />
+            </div>
+
+            <div className="birdy">
+                <i class="fab fa-twitter"></i>
             </div>
 
             <div className="Nav-section-right">
-                <NavItem content="Birdy" />
-                <NavItem content="Search" />
+                {/* <NavItem content="Birdy" /> */}
+                    {/* <div>
+                    <NavItem content="Search" />
+                    </div> */}
+
+                    <div id="Nav-search-wrap">
+                    <form id="Nav-search" className="Form-search" action="/search" role="search">
+                        <input id="search-query" class="search-input" type="text" placeholder="Search Twitter" />
+                    <buton class="icon" type="submit">
+                    </buton>
+                        </form>
+                    </div>
+
                 <ProfilePic data={props.data.tweets} />
+                <div className="Nav-tweet">
                 <NavItem content="Tweet" />
+                </div>
             </div>
 
             </div>
@@ -35,11 +52,13 @@ export const Navibar = (props) => {
 const NavItem = (props) => {
     return (
         <div className="navItem">
-            <img className="navIcon"  />
+            <span className="navIcon"></span>
             <span className="navText">{props.content}</span>
         </div>
     )
 }
+
+
 
 
 

@@ -1,14 +1,25 @@
 
 
-
 .Nav-bar {
     display: flex;
     flex-direction: row;
+    position: relative;
     overflow: hidden;
     background: #fff;
     border-bottom: 0.05vh solid gray;
     justify-content: center;
-    font-family: 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navItem {
+    color: #657786;
+    margin-right: 2em;
+}
+
+.navIcon {
+    color: #657786;
+    font-size: 17px;
+    margin-right: 0.2em;
 }
 
 .Nav-bar-width {
@@ -17,10 +28,11 @@
     justify-content: space-between;
     align-items: center;
     height: 46px;
-    width: 65vw;
+    width: 86vw;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
     font-size: 14px;
     line-height: 20px;
+    font-weight: bold;
 }
 
 .Nav-section-left {
@@ -41,3 +53,40 @@
     top: 0;
     
   } */
+
+  .birdy {
+      color: #1EA1F2;
+      font-size: 19.5px;
+  }
+
+  .Nav-tweet {
+      height: 30px;
+      width: 70px;
+      background-color:  #1EA1F2;
+      border-radius: 16px;
+      cursor: pointer;
+  }
+
+  .Nav-tweet:hover {
+      background-color: #0084b4;
+  }
+
+  .Nav-search-wrap {
+      text-align: center;
+  }
+
+  .Nav-search-wrap {
+      margin: 0 auto;
+      position: relative;
+      width: 350px;
+  }
+
+  
+  
+  
+ 
+
+ 
+
+ 
+
