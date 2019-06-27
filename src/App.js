@@ -21,14 +21,14 @@ class App extends Component {
 const Column = (props) => {
     return (
         <div>
-        { data.tweets.map(card => <Card className="card" data={card} />) }
+        { data.tweets.map(card => <Card data={card} />) }
       </div>
     )
 }
 
 const Card = props => {
     return ( 
-        <div>
+        <div className="card">
             <UserData data={props.data}/>
             <Tweet data={props.data}/>
             <Engagement data={props.data}/> 
@@ -41,10 +41,10 @@ const UserData = (props) => {
         <div className="userData">
             <ProfilePic data={props.data} />
             <DisplayName data={props.data} />
-            <Verified data={props.data} />
-            <span>@</span>
+            {/* <Verified data={props.data} /> */}
+            <span className="at">@</span>
             <UserName data={props.data}/>
-            <span>.</span>
+            <span className="bullet">·</span>
             <TimeStamp data={props.data} />
         </div>
     )
@@ -79,8 +79,8 @@ const Engagement = (props) => {
 
 export const ProfilePic = (props) => {
   return (
-    <div className="images">
-      <img className="imagesround" src={props.data.ProfilePic} />
+    <div>
+      <img className="profilePic" src={props.data.ProfilePic} />
     </div>
   )
 }
@@ -88,7 +88,7 @@ export const ProfilePic = (props) => {
 const DisplayName = (props) => {
   return (
     <div>
-      <span>{props.data.DisplayName} </span>
+      <span className="displayName">{props.data.DisplayName} </span>
     </div>
   )
 }
@@ -104,7 +104,7 @@ const Verified = (props) => {
 const UserName = (props) => {
   return (
     <div>
-      <span>{props.data.UserName} </span>
+      <span className="username">{props.data.UserName} </span>
     </div>
   )
 }
@@ -112,7 +112,7 @@ const UserName = (props) => {
 const TimeStamp = (props) => {
   return (
     <div>
-      <span>{props.data.TimeStamp } </span>
+      <span className="timeStamp">{props.data.TimeStamp } </span>
     </div>
   )
 }
@@ -120,7 +120,7 @@ const TimeStamp = (props) => {
 const Text= (props) => {
   return (
     <div>
-      <span>{props.data.Text } </span>
+      <span className="tweetText">{props.data.Text } </span>
     </div>
   )
 }
