@@ -1,0 +1,22 @@
+.Nav-bar {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    height: 46px;
+    width: 100vw;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.Nav-section-left {
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+}
+
+.Nav-section-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
