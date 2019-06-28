@@ -17,6 +17,7 @@ html {
     top: 0px !important;
     left: 0px !important;
     width: 100vw;
+    z-index: 1;
 }
 
 /* .Nav-bar  {
@@ -88,7 +89,7 @@ html {
 .Nav-section-right {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end space-evenly;
+    justify-content: flex-end space-between;
     align-items: center;
 }
 
@@ -104,6 +105,10 @@ html {
   }
 
   .Nav-tweet {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
       height: 30px;
       width: 70px;
       background-color:  #1EA1F2;
@@ -111,9 +116,25 @@ html {
       cursor: pointer;
   }
 
+  .tweetButton {
+      color: white;
+  }
+
+  .tweetText {
+      text-align: center;
+  }
+
+
+
   .Nav-tweet:hover {
       background-color: #0084b4;
   }
+
+  .UserPic {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
 
 
   .Nav-search-wrap {
@@ -125,8 +146,20 @@ html {
 
   .Search-box {
     border-radius: 16px;
+    border: 1px #E6ECF0 solid;
+    background: #F5F8FA;
+    padding-left: 10px; 
     height: 25px;
     width: 200px;
+    
+  }
+
+  .Nav-user-image {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   
