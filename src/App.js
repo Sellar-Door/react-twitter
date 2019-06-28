@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { Navibar } from './Nav'
+import {Dashboard} from './dashboard.js'
 
 import './App.css';
 import './card.css'
+
 
 import data from './data.json'
 
@@ -12,8 +14,8 @@ class App extends Component {
             <div>
              <Navibar data={data}/>
              <Column className="column" />
-
-            </div>
+             <Dashboard className="dashboard"/>
+             </div>
         )
     }
 }

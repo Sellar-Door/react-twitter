@@ -1,0 +1,42 @@
+.dashboard {
+    color: black;
+    height: 150px;
+    width: 20vw;
+    margin-top: -340px;
+    margin-left: 8.5vw; 
+    background-color: white;
+    border-top: 100px solid #00acee ;
+    position: relative;
+}
+
+
+.dashboardpic {
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    position: relative;
+    margin-top: -25px;
+    margin-left: .6vw;
+    border: 2px white solid;
+
+}
+
+.name{
+    margin-left: 10px;
+    font-weight: bold;
+    margin-left: 0.4em;
+}
+
+.user {
+    margin-left: 10px;
+    color: grey;
+    margin-left: 4em;
+    
+}
+
+.dashboarditem {
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
