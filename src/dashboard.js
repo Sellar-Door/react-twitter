@@ -1,5 +1,6 @@
 import React from 'react';
 import './dashboard.css'
+import './card.css'
 import { ProfilePic } from './App';
 
 
@@ -19,7 +20,7 @@ export const Dashboard = (props) => {
 
 const DashboardItem = (props) => {
     return (
-        <div className="dashboarditem">
+        <div className="item">
             <span>{props.content}</span>
         </div>
     )
