@@ -81,15 +81,34 @@
     font-weight: 600;
   }
 
-  .replies {
+  .repliesDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin-right: 2em;
     margin-left: 0.5em;
 }
+
+.repliesDiv:hover .comments{
+color: #1EA1F2;
+}
+
+.repliesDiv:hover .replies{
+  color: #1EA1F2;
+  }
 
 .retweets {
   margin-right: 2em;
   margin-left: 0.5em;
 }
+
+.engagement:hover .retweets{
+  color: red;
+  }
+
+  .engagement:hover .retweetsIcon{
+    color: red;
+    }
 
 .likes {
   margin-right: 2em;
