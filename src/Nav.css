@@ -6,13 +6,22 @@ html {
 .Nav-bar {
     display: flex;
     flex-direction: row;
-    /* position: fixed; */
+    /* position: relative; */
     overflow: hidden;
     background: #fff;
     border-bottom: 0.05vh solid gray;
     justify-content: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 10vh;
+    position: fixed !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 100vw;
 }
+
+/* .Nav-bar  {
+    
+  } */
 
 .navItem {
     color: #657786;
@@ -113,6 +122,10 @@ html {
       margin: 0 auto;
       position: relative;
   }
+
+  
+
+  /* .Nav-bar-width */
 
   
   
