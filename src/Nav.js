@@ -10,14 +10,27 @@ export const Navibar = (props) => {
             <div className="Nav-bar-width">
 
             <div className="Nav-section-left">
-                <i class="fas fa-home navIcon"></i>
+
+                <div className="Nav-bar-box">
+                <i className="fas fa-home navIcon"></i>
                 <NavItem content="Home"/>
-                <i class="fas fa-bolt navIcon"></i>
+                </div>
+
+                <div className="Nav-bar-box">
+                <i className="fas fa-bolt navIcon"></i>
                 <NavItem content="Moments" />
-                <i class="far fa-bell navIcon"></i>
+                </div>
+
+                <div className="Nav-bar-box">
+                <i className="far fa-bell navIcon"></i>
                 <NavItem content="Notifications" />
-                <i class="far fa-envelope navIcon"></i>
+                </div> 
+
+                <div className="Nav-bar-box">
+                <i className="far fa-envelope navIcon"></i>
                 <NavItem content="Messages" />
+                </div>
+
             </div>
 
             <div className="birdy">
