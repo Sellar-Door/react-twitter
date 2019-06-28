@@ -30,23 +30,23 @@
             "Verified": "True",
             "UserName": "MishaCardenas",
             "TimeStamp": "30m",
-            "Text":  "This is my first tweet",
+            "Text":  " Hello Leon ",
             "Image": "",
             "Replies": 12,
             "Retweets": 6,
             "Likes": 10
         },
         {
-            "ProfilePic": "https://media.licdn.com/dms/image/C5603AQGrpxCpSWN6zw/profile-displayphoto-shrink_200_200/0?e=1567036800&v=beta&t=xjbGMH9tCiOxgm2WuJ4YliuIfALroxGv28JvywC6VOw",
-            "DisplayName": "Misha Cardenas",
+            "ProfilePic": "https://scontent-lhr3-1.cdninstagram.com/vp/f2288cfb73cf471b5e8c41938259170b/5DA4F71C/t51.2885-19/s150x150/14596696_1806049626330886_8739327968465125376_a.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com",
+            "DisplayName": "Max Riley",
             "Verified": "True",
-            "UserName": "MishaCardenas",
-            "TimeStamp": "30m",
-            "Text":  " Hello Leon ",
+            "UserName": "MaxRiley",
+            "TimeStamp": "40m",
+            "Text":  " I absolutely love coding ",
             "Image": "",
-            "Replies": 12,
-            "Retweets": 6,
-            "Likes": 10
+            "Replies": 20,
+            "Retweets": 60,
+            "Likes": 40
         }
 
     ]
