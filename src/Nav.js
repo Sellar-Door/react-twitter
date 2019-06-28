@@ -12,31 +12,35 @@ export const Navibar = (props) => {
             <div className="Nav-section-left">
 
                 <div className="Nav-bar-box">
-                    <div className="Nav-central">
+                    
                         <i className="fas fa-home navIcon"></i>
+                    
                         <NavItem content="Home"/>
-                    </div>
+                    
                 </div>
 
                 <div className="Nav-bar-box">
-                    <div className="Nav-central">
+                    
                         <i className="fas fa-bolt navIcon"></i>
+                      
                         <NavItem content="Moments" />
-                    </div> 
+                    
                 </div>
 
                 <div className="Nav-bar-box">
-                    <div className="Nav-central">
+                    
                         <i className="far fa-bell navIcon"></i>
+                        
                         <NavItem content="Notifications" />
-                    </div> 
+                   
                 </div> 
 
                 <div className="Nav-bar-box">
-                    <div className="Nav-central">
+                   
                         <i className="far fa-envelope navIcon"></i>
+                        
                         <NavItem content="Messages" />
-                    </div> 
+                   
                 </div>
 
             </div>
@@ -53,8 +57,8 @@ export const Navibar = (props) => {
 
                     <div id="Nav-search-wrap">
                     <form id="Nav-search" className="Form-search" action="/search" role="search">
-                        <input id="search-query" class="search-input" type="text" placeholder="Search Twitter" />
-                    <buton class="icon" type="submit">
+                        <input id="search-query" className="search-input Search-box" type="text" placeholder="Search Twitter" />
+                    <buton className="icon" type="submit">
                     </buton>
                         </form>
                     </div>

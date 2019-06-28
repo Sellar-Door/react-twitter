@@ -54,10 +54,11 @@ html {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 40px;
     border-bottom: 3px #fff solid;
     text-align: center;
+    padding-left: 25px;
 }
 
 .Nav-bar-box:hover {
@@ -114,13 +115,18 @@ html {
       background-color: #0084b4;
   }
 
-  .Nav-search-wrap {
-      text-align: center;
-  }
 
   .Nav-search-wrap {
       margin: 0 auto;
       position: relative;
+      text-align: center;
+      
+  }
+
+  .Search-box {
+    border-radius: 16px;
+    height: 25px;
+    width: 200px;
   }
 
   
