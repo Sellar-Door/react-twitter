@@ -36,7 +36,7 @@
   
   .tweet {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-bottom: 1em;
     margin-left: 3.8em;
   }
@@ -81,12 +81,23 @@
     font-weight: 600;
   }
 
+  .tweetImage {
+    width: 35vw;
+    border-radius: 3%;
+    margin-top: 1vh;
+  }
+
+
   .repliesDiv {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-right: 2em;
     margin-left: 0.5em;
+}
+
+.replies {
+  margin-left: 0.5em;
 }
 
 .repliesDiv:hover .comments{
@@ -98,19 +109,53 @@ color: #1EA1F2;
   }
 
 .retweets {
-  margin-right: 2em;
   margin-left: 0.5em;
 }
 
-.engagement:hover .retweets{
-  color: red;
+.retweetDiv {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2em;
+    margin-left: 0.5em;
+}
+
+.retweetDiv:hover .retweets{
+  color:#18bf64;
   }
 
-  .engagement:hover .retweetsIcon{
-    color: red;
+  .retweetDiv:hover .retweetIcon{
+    color:#18bf64;
+    }
+
+    .likeDiv {
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2em;
+    margin-left: 0.5em;
     }
 
 .likes {
-  margin-right: 2em;
   margin-left: 0.5em;
 }
+
+.likeDiv:hover .likes{
+  color: #e0245e;
+  }
+
+  .likeDiv:hover .likesIcon{
+    color: #e0245e;
+    }
+
+    .envelopeDiv {
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2em;
+    margin-left: 0.5em;
+    }
+
+    .envelopeDiv:hover .envelope{
+      color: #1EA1F2;
+      }
