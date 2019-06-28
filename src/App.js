@@ -55,8 +55,12 @@ const UserData = (props) => {
 const Tweet = (props) => {
   return (
       <div className="tweet">
+        <div>
           <Text data={props.data} />
+          </div>
+          <div>
           <Image data={props.data} />
+          </div>
       </div>
   )
 }
@@ -69,11 +73,17 @@ const Engagement = (props) => {
           <i className="far fa-comment comments"></i>
           <Replies data={props.data} />
           </div>
-          <i class="fas fa-retweet"></i>
+          <div className="retweetDiv">
+          <i class="fas fa-retweet retweetIcon"></i>
           <Retweets data={props.data} />
-          <i class="far fa-heart"></i>
+          </div>
+          <div className="likeDiv">
+          <i class="far fa-heart likesIcon"></i>
           <Likes data={props.data} />
-          <i class="far fa-envelope"></i>
+          </div>
+          <div className="envelopeDiv">
+          <i class="far fa-envelope envelope"></i>
+          </div>
       </div>
   )
 }
@@ -130,7 +140,7 @@ const Text= (props) => {
 const Image= (props) => {
   return (
     <div>
-      <span>{props.data.Image } </span>
+      <img className="tweetImage" src={props.data.Image} />
     </div>
   )
 }

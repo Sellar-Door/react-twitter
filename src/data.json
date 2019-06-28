@@ -7,7 +7,7 @@
             "UserName": "DylanJones",
             "TimeStamp": "20m",
             "Text":  "This is my first tweet",
-            "Image": "",
+            "Image": "https://pbs.twimg.com/media/D-JoPdOU0AEMOWf.jpg:large",
             "Replies": 12,
             "Retweets": 6,
             "Likes": 10
@@ -18,8 +18,8 @@
             "Verified": "True",
             "UserName": "GaryCameron",
             "TimeStamp": "25m",
-            "Text":  "This is my first tweet",
-            "Image": "",
+            "Text":  "Another day paddle boarding.",
+            "Image": "https://redpaddleco-9853.kxcdn.com/wp-content/uploads/2018/10/sport-11-gallery-desktop-2-1920x1080.jpg",
             "Replies": 12,
             "Retweets": 6,
             "Likes": 10
