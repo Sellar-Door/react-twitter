@@ -10,7 +10,7 @@
   }
   
   .card {
-    width: 50vw;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -18,6 +18,7 @@
     padding: 1.5vh 0vh 0.5vh 1.5vh;
     border-bottom: 0.05vh solid gray;
     border-top: 0.05vh solid gray;
+    font-size: 14px;
   }
 
   @media only screen and (max-width: 600px) {
@@ -53,22 +54,29 @@
 
   .at {
     margin-left: 0.5vh;
-    font-weight: lighter;
+    color: dimgray;
+    font-size: 12px;
+    padding-top: 1.5px;
+    font-weight: 600;
   }
 
-  .username {
-    font-weight: 300;
-    color: #657786;
+  .username { 
+    color: dimgray;
+    font-size: 12px;
+    font-weight: 600;
   }
 
   .bullet {
     margin-left: 0.5vh; 
-    font-weight: lighter;
+    color: dimgray;
+    font-weight: 600;
   }
 
   .timeStamp {
     margin-left: 0.5vh;
-    font-weight: lighter;
+    color: dimgray;
+    font-size: 12px;
+    font-weight: 600;
   }
 
   .replies {
