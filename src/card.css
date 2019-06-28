@@ -10,14 +10,14 @@
   }
   
   .card {
-    width: 60vw;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     background-color: white;
     padding: 1.5vh 0vh 0.5vh 1.5vh;
-    border-bottom: 0.05vh solid gray;
-    border-top: 0.05vh solid gray;
+    /* border-bottom: 0.05vh solid gray; */
+    border-top: 0.03vh solid #d3d3d3;
     font-size: 14px;
   }
 
@@ -45,6 +45,8 @@
     display: flex;
     flex-direction: row;
     margin-left: 3.8em;
+    color: dimgray;
+    align-items: center;
   }
 
   .displayName {
@@ -55,14 +57,14 @@
   .at {
     margin-left: 0.5vh;
     color: dimgray;
-    font-size: 12px;
+    font-size: 13px;
     padding-top: 1.5px;
     font-weight: 600;
   }
 
   .username { 
     color: dimgray;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
   }
 
@@ -75,18 +77,21 @@
   .timeStamp {
     margin-left: 0.5vh;
     color: dimgray;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
   }
 
   .replies {
     margin-right: 2em;
+    margin-left: 0.5em;
 }
 
 .retweets {
   margin-right: 2em;
+  margin-left: 0.5em;
 }
 
 .likes {
   margin-right: 2em;
+  margin-left: 0.5em;
 }
