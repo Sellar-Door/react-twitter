@@ -12,23 +12,31 @@ export const Navibar = (props) => {
             <div className="Nav-section-left">
 
                 <div className="Nav-bar-box">
-                <i className="fas fa-home navIcon"></i>
-                <NavItem content="Home"/>
+                    <div className="Nav-central">
+                        <i className="fas fa-home navIcon"></i>
+                        <NavItem content="Home"/>
+                    </div>
                 </div>
 
                 <div className="Nav-bar-box">
-                <i className="fas fa-bolt navIcon"></i>
-                <NavItem content="Moments" />
+                    <div className="Nav-central">
+                        <i className="fas fa-bolt navIcon"></i>
+                        <NavItem content="Moments" />
+                    </div> 
                 </div>
 
                 <div className="Nav-bar-box">
-                <i className="far fa-bell navIcon"></i>
-                <NavItem content="Notifications" />
+                    <div className="Nav-central">
+                        <i className="far fa-bell navIcon"></i>
+                        <NavItem content="Notifications" />
+                    </div> 
                 </div> 
 
                 <div className="Nav-bar-box">
-                <i className="far fa-envelope navIcon"></i>
-                <NavItem content="Messages" />
+                    <div className="Nav-central">
+                        <i className="far fa-envelope navIcon"></i>
+                        <NavItem content="Messages" />
+                    </div> 
                 </div>
 
             </div>

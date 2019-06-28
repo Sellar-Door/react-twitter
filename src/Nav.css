@@ -1,7 +1,12 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
 .Nav-bar {
     display: flex;
     flex-direction: row;
-    position: relative;
+    /* position: fixed; */
     overflow: hidden;
     background: #fff;
     border-bottom: 0.05vh solid gray;
@@ -15,6 +20,11 @@
     
 }
 
+.Nav-central {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .navIcon {
     color: #657786;
@@ -35,7 +45,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 40px;
     border-bottom: 3px #fff solid;
     text-align: center;
