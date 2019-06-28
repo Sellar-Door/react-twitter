@@ -13,4 +13,5 @@ body {
   align-items: center;
   margin-top: 66px;
   position: relative;
+  z-index: 0;
 }

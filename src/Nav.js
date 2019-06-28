@@ -63,9 +63,15 @@ export const Navibar = (props) => {
                         </form>
                     </div>
 
-                <ProfilePic data={props.data.tweets} />
+                        <div id="UserPic"> 
+                        <img className="Nav-user-image" src="https://media.licdn.com/dms/image/C5603AQGrpxCpSWN6zw/profile-displayphoto-shrink_200_200/0?e=1567036800&v=beta&t=xjbGMH9tCiOxgm2WuJ4YliuIfALroxGv28JvywC6VOw"/>
+
+                    </div>
+
                 <div className="Nav-tweet">
-                <NavItem content="Tweet" />
+                    <div className="tweetText">
+                        <NavItem content="Tweet" styling="true" />
+                    </div>
                 </div>
             </div>
 
@@ -76,7 +82,7 @@ export const Navibar = (props) => {
 
 const NavItem = (props) => {
     return (
-        <div className="navItem">
+        <div className={props.styling ? "navItem tweetButton" : "navItem"}>
             <span className="navIcon"></span>
             <span className="navText">{props.content}</span>
         </div>
