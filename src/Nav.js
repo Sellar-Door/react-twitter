@@ -50,17 +50,24 @@ export const Navibar = (props) => {
             </div>
 
             <div className="Nav-section-right">
-                {/* <NavItem content="Birdy" /> */}
-                    {/* <div>
-                    <NavItem content="Search" />
-                    </div> */}
-
+               
                     <div id="Nav-search-wrap">
-                    <form id="Nav-search" className="Form-search" action="/search" role="search">
-                        <input id="search-query" className="search-input Search-box" type="text" placeholder="Search Twitter" />
-                    <buton className="icon" type="submit">
-                    </buton>
-                        </form>
+
+                        {/* <form id="Nav-search" > */}
+                            
+
+                            <input className="Search-box fontAwesome" type="text" placeholder="Search Twitter; &#xf002"/>
+
+                            {/* ; &#xf002 */}
+
+                            <i className="fas fa-search "></i>
+                            {/* searchMagGlass */}
+                                
+                                {/* <button className="icon" type="submit"></button> */}
+
+                                {/* <img src="https://www.seekpng.com/ipng/u2q8r5r5u2e6w7i1_lens-clipart-magnifier-search-icon-png-grey/"/> */}
+
+                        {/* </form> */}
                     </div>
 
                         <div id="UserPic"> 
@@ -69,7 +76,7 @@ export const Navibar = (props) => {
                     </div>
 
                 <div className="Nav-tweet">
-                    <div className="tweetText">
+                    <div className="navtweetText">
                         <NavItem content="Tweet" styling="true" />
                     </div>
                 </div>
