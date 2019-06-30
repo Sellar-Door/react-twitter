@@ -3,6 +3,10 @@ html {
     padding: 0;
 }
 
+.fontAwesome {
+    font-family: 'Helvetica', 'FontAwesome', sans-serif;
+}
+
 .Nav-bar {
     display: flex;
     flex-direction: row;
@@ -11,11 +15,10 @@ html {
     background: #fff;
     border-bottom: 0.05vh solid gray;
     justify-content: center;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, 'FontAwesome', sans-serif;
     margin-bottom: 10vh;
-    position: fixed !important;
-    top: 0px !important;
-    left: 0px !important;
+    position: fixed ;
+    top: 0px ;
     width: 100vw;
     z-index: 1;
 }
@@ -80,10 +83,13 @@ html {
     font-weight: bold;
 }
 
+
+
 .Nav-section-left {
  display: flex;
  flex-direction: row;
  justify-content: flex-start space-evenly;
+ cursor: pointer;
 }
 
 .Nav-section-right {
@@ -102,6 +108,7 @@ html {
   .birdy {
       color: #1EA1F2;
       font-size: 19.5px;
+      cursor: pointer;
   }
 
   .Nav-tweet {
@@ -109,25 +116,33 @@ html {
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     position: static;
       height: 30px;
       width: 70px;
-      background-color:  #1EA1F2;
+      background-color:  #66B2EE;
       border-radius: 16px;
       cursor: pointer;
+      z-index: 0;
+  }
+
+ 
+
+  .navtweetText {
+      text-align: center;
+      position: sticky;
+      /* right: 6.1%;
+      bottom: 1em; */
+      padding-left: 22px;
+      padding-bottom: 3px;
+      z-index: 1;
   }
 
   .tweetButton {
-      color: white;
-  }
-
-  .tweetText {
-      text-align: center;
-  }
-
-
+    color: white;
+}
 
   .Nav-tweet:hover {
-      background-color: #0084b4;
+      background-color: #4AA0EB;
   }
 
   .UserPic {
@@ -151,8 +166,13 @@ html {
     padding-left: 10px; 
     height: 25px;
     width: 200px;
-    
+    z-index: 2;
   }
+
+  /* .searchMagGlass {
+      padding-right: 10px;
+    z-index: 3;
+  } */
 
   .Nav-user-image {
     border-radius: 50%;
@@ -160,6 +180,7 @@ html {
     width: 30px;
     padding-left: 15px;
     padding-right: 15px;
+    cursor: pointer;
   }
 
   

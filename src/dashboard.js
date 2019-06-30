@@ -1,7 +1,7 @@
 import React from 'react';
 import './dashboard.css'
 import './card.css'
-import { ProfilePic } from './App';
+// import { ProfilePic } from './App';
 
 
 export const Dashboard = (props) => {
