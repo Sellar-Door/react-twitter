@@ -20,11 +20,24 @@ body {
 
 .column {
   /* grid-area: Column; */
-  width: 100vw;
+  width: 50vw;
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* margin-top: 66px; */
+  /* position: relative; */
+  /* z-index: 0; */
+}
+
+.layoutcolumn {
+  width: 100vw;
   margin-top: 66px;
-  position: relative;
-  z-index: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.bodycolumn {
+  display: flex;
+  flex-direction: column;
+  
 }
