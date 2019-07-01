@@ -3,6 +3,15 @@ import './footer.css'
 import './card.css'
 // import { ProfilePic } from './App';
 
+export const WhoToFollow = () => {
+    return ( 
+      <div className="whotofollow">
+          <p>This is the who to follow box</p>
+          </div>
+    )
+
+}
+
 
 export const Footer = () => {
     return ( 
@@ -22,13 +31,6 @@ return (
 
 }
 
-export const WhoToFollow = () => {
-    return ( 
-      <div className="whotofollow">
-          <p>This is the who to follow box</p>
-          </div>
-    )
 
-}
 
 

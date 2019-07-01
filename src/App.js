@@ -9,29 +9,38 @@ import './App.css';
 import './card.css'
 
 
+
 import data from './data.json'
 
 class App extends Component {
     render () {
         return (
-            <div >
+            <div>
              <Navibar data={data}/>
 
                   <div className="layoutcolumn">
 
-                      <div className="bodycolumn">
+
+                      <div className="bodycolumn1">
                         <Dashboard className="dashboard"/>
                       </div>
 
-                      <div className="bodycolumn"></div>
+                      <div className="bodycolumn2">
                         <Column className="column" />
-                      </div>
+                        </div>
+                        
 
-                      <div className="bodycolumn">
+                        {/* <div className="bodycolumn">
+                        <Dashboard className="dashboard"/>
+                      </div> */}
+
+                      <div className="bodycolumn3">
+                         <WhoToFollow className="whotofollow" />
                           <Footer className="footer"/>
                           <Footer2 className="footer2" />
-                          <WhoToFollow className="whotofollow" />
+                          
                       </div>
+                  </div>
 
 
                  </div>
