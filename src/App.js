@@ -26,15 +26,11 @@ class App extends Component {
                       </div>
 
 
-                      <div className="bodycolumn main-column">
+                      <div className="bodycolumn">
 
                         <Column className="column" />
                         </div>
                         
-
-                        {/* <div className="bodycolumn">
-                        <Dashboard className="dashboard"/>
-                      </div> */}
 
                       <div className="bodycolumn">
                          <WhoToFollow className="whotofollow" />
@@ -47,7 +43,7 @@ class App extends Component {
 
                  </div>
 
-                 </div>
+                 
             
         )
     }
