@@ -9,6 +9,7 @@ import './App.css';
 import './card.css'
 
 
+
 import data from './data.json'
 
 class App extends Component {
@@ -19,19 +20,29 @@ class App extends Component {
 
                   <div className="layoutcolumn">
 
+
                       <div className="bodycolumn">
                         <Dashboard className="dashboard"/>
                       </div>
 
+
                       <div className="bodycolumn main-column">
+
                         <Column className="column" />
-                      </div>
+                        </div>
+                        
+
+                        {/* <div className="bodycolumn">
+                        <Dashboard className="dashboard"/>
+                      </div> */}
 
                       <div className="bodycolumn">
+                         <WhoToFollow className="whotofollow" />
                           <Footer className="footer"/>
                           <Footer2 className="footer2" />
-                          <WhoToFollow className="whotofollow" />
+                          
                       </div>
+                  </div>
 
 
                  </div>
