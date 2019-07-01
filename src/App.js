@@ -21,11 +21,13 @@ class App extends Component {
                   <div className="layoutcolumn">
 
 
-                      <div className="bodycolumn1">
+                      <div className="bodycolumn">
                         <Dashboard className="dashboard"/>
                       </div>
 
-                      <div className="bodycolumn2">
+
+                      <div className="bodycolumn main-column">
+
                         <Column className="column" />
                         </div>
                         
@@ -34,7 +36,7 @@ class App extends Component {
                         <Dashboard className="dashboard"/>
                       </div> */}
 
-                      <div className="bodycolumn3">
+                      <div className="bodycolumn">
                          <WhoToFollow className="whotofollow" />
                           <Footer className="footer"/>
                           <Footer2 className="footer2" />
@@ -42,6 +44,8 @@ class App extends Component {
                       </div>
                   </div>
 
+
+                 </div>
 
                  </div>
             
