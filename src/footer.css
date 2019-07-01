@@ -1,30 +1,45 @@
-.footer {
+.footer  {
     color: black;
-    height: 150px;
-
-    margin-left: 72vw; 
+    height: 80px; 
+    width: 20vw;
     background-color: white;
     /* padding-top: 2vh */
 }
 
-.footer-links {
-    margin-left: 1.5vh;
-    margin-top: 1.5vh;
-    color: dimgray;
-    font-size: 12px;
-    padding-top: 1.5px;
-    font-weight: 350;
-
-
+.footer2 {
+    color: black;
+    height: 60px; 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 20vw;
+    
+    /* padding-top: 2vh */
 }
 
 
+
+
+.footer-links {
+    
+    color: dimgray;
+    font-size: 12px;
+    font-weight: 350;
+    padding-top: 20px;
+    padding-left: 8px;
+}
+    .footer-links:hover  {
+        color: #1EA1F2;    
+    }
+
+
+
+
 .ad-link {
-    margin-left: 2vh;
     font-size: 13px;
-    padding-top: 1.5px;
     font-weight: 600;
-     color: #1EA1F2
+     color: #1EA1F2;
+     display: inline-block;
 }
 
 
@@ -32,9 +47,5 @@
     color: black;
     height: 150px;
     width: 20vw;
-    margin-top: -900px;
-    margin-left: 72vw; 
     background-color: white;
-
-
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Navibar } from './Nav'
 import {Dashboard} from './dashboard.js'
 import {Footer} from './footer.js'
+import {Footer2} from './footer.js'
 import {WhoToFollow} from './footer.js'
 
 import './App.css';
@@ -15,17 +16,26 @@ class App extends Component {
         return (
             <div >
              <Navibar data={data}/>
-                  <div className="layoutcolumn">
-              
-                        <Dashboard className="dashboard"/>
 
+                  <div className="layoutcolumn">
+
+                      <div className="bodycolumn">
+                        <Dashboard className="dashboard"/>
+                      </div>
+
+                      <div className="bodycolumn"></div>
                         <Column className="column" />
-                                <div className="layoutcolumn">
-                                      <Footer className="footer"/>
-                                      <WhoToFollow className="whotofollow" />
-                                </div>
+                      </div>
+
+                      <div className="bodycolumn">
+                          <Footer className="footer"/>
+                          <Footer2 className="footer2" />
+                          <WhoToFollow className="whotofollow" />
+                      </div>
+
+
                  </div>
-             </div>
+            
         )
     }
 }
