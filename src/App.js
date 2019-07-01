@@ -65,12 +65,8 @@ const UserData = (props) => {
 const Tweet = (props) => {
   return (
       <div className="tweet">
-        <div>
           <Text data={props.data} />
-          </div>
-          <div>
           <Image data={props.data} />
-          </div>
       </div>
   )
 }
