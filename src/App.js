@@ -14,7 +14,7 @@ import data from './data.json'
 class App extends Component {
     render () {
         return (
-            <div >
+            <div>
              <Navibar data={data}/>
 
                   <div className="layoutcolumn">
@@ -23,7 +23,7 @@ class App extends Component {
                         <Dashboard className="dashboard"/>
                       </div>
 
-                      <div className="bodycolumn"></div>
+                      <div className="bodycolumn main-column">
                         <Column className="column" />
                       </div>
 
@@ -33,6 +33,8 @@ class App extends Component {
                           <WhoToFollow className="whotofollow" />
                       </div>
 
+
+                 </div>
 
                  </div>
             
