@@ -19,22 +19,17 @@ class App extends Component {
 
                   <div className="layoutcolumn">
 
-
                       <div className="bodycolumn">
                         <Dashboard className="dashboard"/>
                       </div>
 
                       <div className="bodycolumn"></div>
                         <Column className="column" />
-                        </div>
-
-                        {/* <div className="bodycolumn">
-                        <Dashboard className="dashboard"/>
-                      </div> */}
+                      </div>
 
                       <div className="bodycolumn">
                           <Footer className="footer"/>
-          <Footer2 className="footer2" />
+                          <Footer2 className="footer2" />
                           <WhoToFollow className="whotofollow" />
                       </div>
 
