@@ -47,6 +47,18 @@
             "Replies": 20,
             "Retweets": 60,
             "Likes": 40
+        },
+        {
+            "ProfilePic": "https://media.licdn.com/dms/image/C5603AQG75CZ33NiXYA/profile-displayphoto-shrink_800_800/0?e=1567036800&v=beta&t=8Y-IO8yA0jf5u7ezR6dxkobE1mk0BlmP0JmDOITvwVk",
+            "DisplayName": "Jacob Zielinski",
+            "Verified": "True",
+            "UserName": "JZ",
+            "TimeStamp": "1h",
+            "Text":  " I've built my first HR application that will be used all over the country. ",
+            "Image": "",
+            "Replies": 2,
+            "Retweets": 8,
+            "Likes": 46
         }
 
     ]
