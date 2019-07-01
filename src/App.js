@@ -28,6 +28,8 @@ class App extends Component {
 
                       <div className="bodycolumn">
 
+                      <div className="bodycolumn main-column">
+
                         <Column className="column" />
                         </div>
                         
@@ -40,7 +42,7 @@ class App extends Component {
                       </div>
                   </div>
 
-
+                      </div>
                  </div>
 
                  
@@ -73,9 +75,9 @@ const UserData = (props) => {
             <ProfilePic data={props.data} />
             <DisplayName data={props.data} />
             {/* <Verified data={props.data} /> */}
-            <p className="at">@</p>
+            <span className="at">@</span>
             <UserName data={props.data}/>
-            <p className="bullet">·</p>
+            <span className="bullet">·</span>
             <TimeStamp data={props.data} />
         </div>
     )
@@ -125,7 +127,7 @@ export const ProfilePic = (props) => {
 const DisplayName = (props) => {
   return (
     <div>
-      <p className="displayName">{props.data.DisplayName} </p>
+      <span className="displayName">{props.data.DisplayName} </span>
     </div>
   )
 }
@@ -133,7 +135,7 @@ const DisplayName = (props) => {
 const Verified = (props) => {
   return (
     <div>
-      <p>{props.data.Verified} </p>
+      <span>{props.data.Verified} </span>
     </div>
   )
 }
@@ -141,7 +143,7 @@ const Verified = (props) => {
 const UserName = (props) => {
   return (
     <div>
-      <p className="username">{props.data.UserName} </p>
+      <span className="username">{props.data.UserName} </span>
     </div>
   )
 }
@@ -149,7 +151,7 @@ const UserName = (props) => {
 const TimeStamp = (props) => {
   return (
     <div>
-      <p className="timeStamp">{props.data.TimeStamp } </p>
+      <span className="timeStamp">{props.data.TimeStamp } </span>
     </div>
   )
 }
@@ -157,7 +159,7 @@ const TimeStamp = (props) => {
 const Text= (props) => {
   return (
     <div>
-      <p className="tweetText">{props.data.Text } </p>
+      <span className="tweetText">{props.data.Text } </span>
     </div>
   )
 }
@@ -173,7 +175,7 @@ const Image= (props) => {
 const  Replies= (props) => {
   return (
     <div className="replies">
-      <p>{props.data.Replies } </p>
+      <span>{props.data.Replies } </span>
     </div>
   )
 }
@@ -181,7 +183,7 @@ const  Replies= (props) => {
 const Retweets= (props) => {
   return (
     <div className="retweets">
-      <p>{props.data.Retweets } </p>
+      <span>{props.data.Retweets } </span>
     </div>
   )
 }
@@ -189,7 +191,7 @@ const Retweets= (props) => {
 const Likes= (props) => {
   return (
     <div className="likes">
-      <p>{props.data.Likes } </p>
+      <span>{props.data.Likes } </span>
     </div>
   )
 }
