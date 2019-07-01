@@ -4,12 +4,29 @@
     color: black;
     height: 120px;
     width: 20vw;
-    margin-top: -100px;
-    margin-left: 8.5vw; 
     background-color: white;
     border-top: 100px solid #00acee ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  
+    margin-right: 10px;
+    margin-left: 30px;
+
+
     /* padding-top: 2vh */
 }
+
+.trends {
+color: black;
+    height: 120px;
+    width: 20vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 2vh */
+}
+
 
 
 

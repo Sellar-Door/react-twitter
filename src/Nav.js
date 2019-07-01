@@ -90,8 +90,8 @@ export const Navibar = (props) => {
 const NavItem = (props) => {
     return (
         <div className={props.styling ? "navItem tweetButton" : "navItem"}>
-            <span className="navIcon"></span>
-            <span className="navText">{props.content}</span>
+            <p className="navIcon"></p>
+            <p className="navText">{props.content}</p>
         </div>
     )
 }
