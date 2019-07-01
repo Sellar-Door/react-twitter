@@ -10,6 +10,7 @@ export const Navibar = (props) => {
             <div className="Nav-bar-width">
 
             <div className="Nav-section-left">
+                
 
                 <div className="Nav-bar-box">
                     
