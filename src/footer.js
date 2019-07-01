@@ -7,31 +7,20 @@ import './card.css'
 export const Footer = () => {
     return ( 
       <div className="footer">
-        <p className="footer-links">© 2019 </p>
-        <p className="footer-links">Twitter </p>
-        <p className="footer-links">About </p>
-        <p className="footer-links">Help Center </p>
-        <p className="footer-links">Terms </p>
-        <p className="footer-links">Privacy policy </p>
-        <p className="footer-links">Cookies </p>
-        <p className="footer-links">Ads info</p>
-        <p className="footer-links">Brand </p><br></br>
-        <p className="footer-links">Blog </p>
-        <p className="footer-links">Status </p>
-        <p className="footer-links">Apps </p>
-        <p className="footer-links">Jobs </p>
-        <p className="footer-links">Marketing </p>
-        <p className="footer-links">Businesses </p>
-        <p className="footer-links">Developers </p>
-
-        <div className="ad-link">
-            <br></br><p>Advertise with Twitter</p>
-        </div>
+        <p className="footer-links">©2019 Twitter About Help Center Terms<br></br>Privacy policy Cookies Ads info Brand<br></br>Blog Status Apps Jobs Marketing<br></br>Businesses Development<br></br></p>
           </div>
     )
 
 }
 
+export const Footer2 = () => {
+return (
+    <div className="footer2">
+       <p className="ad-link"><i class="fas fa-external-link-alt"></i> Advertise with Twitter</p>
+    </div>
+)
+
+}
 
 export const WhoToFollow = () => {
     return ( 
