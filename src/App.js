@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Navibar } from './Nav'
 import {Dashboard} from './dashboard.js'
+import {Footer} from './footer.js'
+import {WhoToFollow} from './footer.js'
 
 import './App.css';
 import './card.css'
@@ -11,10 +13,18 @@ import data from './data.json'
 class App extends Component {
     render () {
         return (
-            <div>
+            <div >
              <Navibar data={data}/>
-             <Column className="column" />
-             <Dashboard className="dashboard"/>
+                  <div className="layoutcolumn">
+              
+                        <Dashboard className="dashboard"/>
+
+                        <Column className="column" />
+                                <div className="layoutcolumn">
+                                      <Footer className="footer"/>
+                                      <WhoToFollow className="whotofollow" />
+                                </div>
+                 </div>
              </div>
         )
     }
@@ -44,9 +54,9 @@ const UserData = (props) => {
             <ProfilePic data={props.data} />
             <DisplayName data={props.data} />
             {/* <Verified data={props.data} /> */}
-            <span className="at">@</span>
+            <p className="at">@</p>
             <UserName data={props.data}/>
-            <span className="bullet">·</span>
+            <p className="bullet">·</p>
             <TimeStamp data={props.data} />
         </div>
     )
@@ -100,7 +110,7 @@ export const ProfilePic = (props) => {
 const DisplayName = (props) => {
   return (
     <div>
-      <span className="displayName">{props.data.DisplayName} </span>
+      <p className="displayName">{props.data.DisplayName} </p>
     </div>
   )
 }
@@ -108,7 +118,7 @@ const DisplayName = (props) => {
 const Verified = (props) => {
   return (
     <div>
-      <span>{props.data.Verified} </span>
+      <p>{props.data.Verified} </p>
     </div>
   )
 }
@@ -116,7 +126,7 @@ const Verified = (props) => {
 const UserName = (props) => {
   return (
     <div>
-      <span className="username">{props.data.UserName} </span>
+      <p className="username">{props.data.UserName} </p>
     </div>
   )
 }
@@ -124,7 +134,7 @@ const UserName = (props) => {
 const TimeStamp = (props) => {
   return (
     <div>
-      <span className="timeStamp">{props.data.TimeStamp } </span>
+      <p className="timeStamp">{props.data.TimeStamp } </p>
     </div>
   )
 }
@@ -132,7 +142,7 @@ const TimeStamp = (props) => {
 const Text= (props) => {
   return (
     <div>
-      <span className="tweetText">{props.data.Text } </span>
+      <p className="tweetText">{props.data.Text } </p>
     </div>
   )
 }
@@ -148,7 +158,7 @@ const Image= (props) => {
 const  Replies= (props) => {
   return (
     <div className="replies">
-      <span>{props.data.Replies } </span>
+      <p>{props.data.Replies } </p>
     </div>
   )
 }
@@ -156,7 +166,7 @@ const  Replies= (props) => {
 const Retweets= (props) => {
   return (
     <div className="retweets">
-      <span>{props.data.Retweets } </span>
+      <p>{props.data.Retweets } </p>
     </div>
   )
 }
@@ -164,7 +174,7 @@ const Retweets= (props) => {
 const Likes= (props) => {
   return (
     <div className="likes">
-      <span>{props.data.Likes } </span>
+      <p>{props.data.Likes } </p>
     </div>
   )
 }
