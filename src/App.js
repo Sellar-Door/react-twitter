@@ -17,9 +17,9 @@ class App extends Component {
         return (
             <div>
 
-              <div>
+             
              <Navibar data={data}/>
-             </div>
+             
 
                   <div className="layoutcolumn">
 
@@ -29,7 +29,7 @@ class App extends Component {
                       </div>
 
 
-                      <div className="bodycolumn main-column">
+                      {/* <div className="bodycolumn main-column"> */}
 
 
 
@@ -37,7 +37,7 @@ class App extends Component {
                         <Column className="column" /> */}
 
                       <div className="bodycolumn">
-         <Column className="column" />
+                           <Column className="column" />
                       </div>
                         
 
@@ -50,6 +50,8 @@ class App extends Component {
                   </div>
 
             </div>
+
+            
         
 
                  
