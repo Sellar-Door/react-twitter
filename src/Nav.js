@@ -54,10 +54,10 @@ export const Navibar = (props) => {
                
                     <div id="Nav-search-wrap">
                             
-                            
+                            <div className="search">
                             <input className="Search-box" type="text" placeholder="Search Twitter"/>
-                            <span className="fa fa-search magGlass"></span>
-
+                            <span className="fa fa-search"></span>
+                            </div>
                     </div>
 
                         <div id="UserPic"> 

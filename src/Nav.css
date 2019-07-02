@@ -173,7 +173,20 @@
     cursor: pointer;
   }
 
-  
+  .search {
+      position: relative;
+  }
+
+  .search .fa-search { 
+    position: absolute;
+    top: 8px;
+    left: 187px;
+    font-size: 15px;
+  }
+
+  .search input 
+  {text-indent: 2px;}
+
   
   
  
