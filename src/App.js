@@ -28,7 +28,7 @@ class App extends Component {
 
                       <div className="bodycolumn">
 
-                        <Column className="column" />
+                        <Column className="column 1" />
                         </div>
                         
 
