@@ -7,13 +7,15 @@ import './card.css'
 export const Dashboard = (props) => {
     return ( 
       <div className="dashboard">
-          <img className="dashboardpic" src="https://media.licdn.com/dms/image/C5603AQGrpxCpSWN6zw/profile-displayphoto-shrink_200_200/0?e=1567036800&v=beta&t=xjbGMH9tCiOxgm2WuJ4YliuIfALroxGv28JvywC6VOw"/>
-          <p className="name">Misha Cardenas</p>
-          <p className="user">@mishacardenas</p>
-          <DashboardItem content="Tweets" />
-          <DashboardItem content="Following" />
-          <DashboardItem content="Followers" />
-          <Trends content="trends" />
+          <img className="dashboardpic" src="https://media.licdn.com/dms/image/C4D03AQEBclsPZsvy6Q/profile-displayphoto-shrink_800_800/0?e=1567036800&v=beta&t=4bv71wammrqEL5Wl6Y8_NxEXoQOwo9vyW_VZ7DiLs1E"/>
+          <p className="name">Dylan Jones</p>
+          <p className="user">@dylanjones</p>
+          <div className="item">
+          <DashboardItem name="Tweets" content="100" />
+          <DashboardItem name="Following" content="230" />
+          <DashboardItem name="Followers" content="540" />
+          </div>
+          <Trends  />
           </div>
     )
 
@@ -30,8 +32,9 @@ export const Trends = (props) => {
 
 const DashboardItem = (props) => {
     return (
-        <div className="item">
-            <p>{props.content}</p>
+        <div>
+            <p>{props.name}</p>
+            <p className="stats">{props.content}</p>
         </div>
     )
 }
