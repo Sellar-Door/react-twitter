@@ -25,7 +25,13 @@ class App extends Component {
                         <Dashboard className="dashboard"/>
                       </div>
 
+<<<<<<< HEAD
                       <div className="bodycolumn">
+=======
+
+                      <div className="bodycolumn main-column">
+
+>>>>>>> 5b3b6d1294c3c3a423bf0b5e05b8a2386254e3e0
                         <Column className="column" />
                         </div>
                         
@@ -42,6 +48,8 @@ class App extends Component {
                       </div>
                   </div>
 
+
+                 </div>
 
                  </div>
             

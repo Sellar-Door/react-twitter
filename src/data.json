@@ -59,6 +59,18 @@
             "Replies": 2,
             "Retweets": 8,
             "Likes": 46
+        },
+        {
+            "ProfilePic": "https://www.turner.com/s3fs-public/image_u/PizzaSteveCMYK_3.png",
+            "DisplayName": "Ben Maudslay",
+            "Verified": "True",
+            "UserName": "BAM",
+            "TimeStamp": "100BC",
+            "Text":  "All you need is react:",
+            "Image": "https://i1.wp.com/blog.js-republic.com/wp-content/uploads/2016/08/react.gif?fit=640%2C640&resize=350%2C200",
+            "Replies": 69,
+            "Retweets": 8003,
+            "Likes": 46000
         }
 
     ]
