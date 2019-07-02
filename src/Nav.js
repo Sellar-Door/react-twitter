@@ -72,7 +72,7 @@ export const Navibar = (props) => {
                     </div>
 
                         <div id="UserPic"> 
-                        <img className="Nav-user-image" src="https://media.licdn.com/dms/image/C5603AQGrpxCpSWN6zw/profile-displayphoto-shrink_200_200/0?e=1567036800&v=beta&t=xjbGMH9tCiOxgm2WuJ4YliuIfALroxGv28JvywC6VOw"/>
+                        <img className="Nav-user-image" src="https://media.licdn.com/dms/image/C4D03AQEBclsPZsvy6Q/profile-displayphoto-shrink_800_800/0?e=1567036800&v=beta&t=4bv71wammrqEL5Wl6Y8_NxEXoQOwo9vyW_VZ7DiLs1E"/>
 
                     </div>
 

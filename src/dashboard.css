@@ -35,7 +35,7 @@ color: black;
     height: 80px;
     width: 80px;
     position: relative;
-    margin-top: -50px;
+    margin-top: -39px;
     margin-left: .6vw;
     border: 2px white solid;
 
@@ -43,18 +43,32 @@ color: black;
 
 .name{
     font-weight: bold;
-    margin-left: 0.4em;
+    margin-left: 30px;
+    margin-top: -1em;
 }
 
 .user {
     color: grey;
-    margin-left: 4em;
+    margin-left: 5em;
+    margin-top: -20px;
     
 }
 
+
+
 .item {
-    color: grey;
     display: flex;
     flex-direction: row;
-    font-weight: bold;
+    color: grey;
+    font-size: 12px;
+   font-weight: 800;
+   margin-left: 20px;
+   margin-right: 60px;
+   justify-content: space-between;
+}
+
+.stats {
+    color: #00acee;
+    font-size: 15px;
+    font-weight: 900;
 }
