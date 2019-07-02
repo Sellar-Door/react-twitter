@@ -53,22 +53,11 @@ export const Navibar = (props) => {
             <div className="Nav-section-right">
                
                     <div id="Nav-search-wrap">
-
-                        {/* <form id="Nav-search" > */}
                             
+                            
+                            <input className="Search-box" type="text" placeholder="Search Twitter"/>
+                            <span className="fa fa-search magGlass"></span>
 
-                            <input className="Search-box fontAwesome" type="text" placeholder="Search Twitter; &#xf002"/>
-
-                            {/* ; &#xf002 */}
-
-                            <i className="fas fa-search "></i>
-                            {/* searchMagGlass */}
-                                
-                                {/* <button className="icon" type="submit"></button> */}
-
-                                {/* <img src="https://www.seekpng.com/ipng/u2q8r5r5u2e6w7i1_lens-clipart-magnifier-search-icon-png-grey/"/> */}
-
-                        {/* </form> */}
                     </div>
 
                         <div id="UserPic"> 

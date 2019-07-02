@@ -136,8 +136,12 @@
   .Nav-search-wrap {
       margin: 0 auto;
       position: relative;
-      text-align: center;     
+      /* text-align: center;      */
+      /* background: url(./assets/Nav-search-img.png) no-repeat;
+      height: 100%;
+      width: 100%; */
   }
+
 
   .Search-box {
     border-radius: 16px;
@@ -148,6 +152,17 @@
     width: 200px;
     z-index: 2;
   }
+
+  .Nav-search-wrap .Search-box { text-indent: 50px;}
+
+  .Nav-search-wrap .magGlass {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 30px;
+  }
+
+
 
   .Nav-user-image {
     border-radius: 50%;
