@@ -182,6 +182,7 @@
     top: 8px;
     left: 187px;
     font-size: 15px;
+    cursor: pointer;
   }
 
   .search input 
