@@ -16,7 +16,10 @@ class App extends Component {
     render () {
         return (
             <div>
+
+              <div>
              <Navibar data={data}/>
+             </div>
 
                   <div className="layoutcolumn">
 
@@ -25,29 +28,24 @@ class App extends Component {
                         <Dashboard className="dashboard"/>
                       </div>
 
+                      {/* <div className="bodycolumn">
+                        <Column className="column" /> */}
 
                       <div className="bodycolumn">
-
-
                         <Column className="column" />
-
-                      <div className="bodycolumn main-column">
-
-                        <Column className="column" />
-
-                        </div>
+                      </div>
                         
 
                       <div className="bodycolumn">
-                         <WhoToFollow className="whotofollow" />
+                          <WhoToFollow className="whotofollow" />
                           <Footer className="footer"/>
-                          <Footer2 className="footer2" />
-                          
+                          <Footer2 className="footer2" /> 
                       </div>
+
                   </div>
 
-                      </div>
-                 </div>
+            </div>
+        
 
                  
             
